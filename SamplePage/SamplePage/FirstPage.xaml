@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="SamplePage.FirstPage">
+
+    <StackLayout Spacing ="4" Padding = "10" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" Orientation = "Horizontal">
+        <Frame Padding = "0" CornerRadius = "0" OutlineColor = "#8BD1F6" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" HasShadow = "false" >
+            <StackLayout Spacing = "5" Padding = "5" Orientation = "Vertical" HorizontalOptions = "Center" VerticalOptions = "Center">
+               <Button Image = "Camera" HeightRequest = "30"/>
+                <Label Text = "Camera" TextColor = "#8BD1F6" FontSize = "10"></Label>
+            </StackLayout>
+        </Frame>
+        <Frame Padding = "0" CornerRadius = "0" OutlineColor = "#8BD1F6" HorizontalOptions = "FillAndExpand" VerticalOptions = "Start" HasShadow = "false" >
+          <StackLayout  Padding = "5" Spacing = "5" Orientation = "Vertical" HorizontalOptions = "Center" VerticalOptions = "Center">
+               <Button Image = "Alubm" HeightRequest = "30"/>
+                <Label Text = "Alubm" TextColor = "#8BD1F6" FontSize = "10" ></Label>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+    
+</ContentPage>
